@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <Authors>Alireza Paridar</Authors>
+    <Company>AP</Company>
+    <Description>PerstianDateConvertor Is a Standard Library For Converting Between GregorianDate And PersianDate.
+This Projects Type Is .NetStandardLibrary.
+Compatible With .netframework or xamarin or .netcore ....</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Globalization.Calendars" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
